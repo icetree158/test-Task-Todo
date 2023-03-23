@@ -2,7 +2,9 @@
     margin-top: 20px;
 
     .textarea {
-        @import '../../style/fonts.scss';
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@700&display=swap');
+
+
         font-family: 'PT Sans', sans-serif;
         font-weight: 400;
         width: 100%;
