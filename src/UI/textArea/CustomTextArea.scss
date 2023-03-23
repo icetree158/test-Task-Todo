@@ -1,0 +1,35 @@
+.textareaWrapper {
+    margin-top: 20px;
+
+    .textarea {
+        @import '../../style/fonts.scss';
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 400;
+        width: 100%;
+        border: 1px solid #9C89B8;
+        border-radius: 8px;
+        padding: 5px;
+        background-color: transparent;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0.05);
+        height: 6em;
+
+        &:focus {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    .tagsWrapper {
+        line-height: 40px;
+        overflow-x: auto;
+        .tagsSpan {
+            color: rgb(26, 186, 186);
+            border: 1px solid black;
+            border-radius: 40px;
+            padding: 7px 8px;
+
+        }
+    }
+
+
+}

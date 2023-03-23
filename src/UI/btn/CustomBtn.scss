@@ -1,0 +1,17 @@
+.CustomBtn {
+    border: 1px solid #9C89B8;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.05);
+    @import '../../style/fonts.scss';
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 8px;
+
+    cursor: pointer;
+
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+}

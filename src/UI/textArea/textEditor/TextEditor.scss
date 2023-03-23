@@ -1,0 +1,28 @@
+.textAreaEditorWrapper {
+    margin-top: 10px;
+
+    .textAreaEditor {
+        @import '../../../style/fonts.scss';
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 400;
+        width: 100%;
+        border: 1px solid #9C89B8;
+        border-radius: 8px;
+        padding: 5px;
+        background-color: transparent;
+        font-size: 15px;
+        background-color: rgba(0, 0, 0, 0.05);
+        height: 6em;
+        overflow-y: auto;
+
+
+        &:focus {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        .tagSpanTextareat {
+
+            color: #1ababa
+        }
+    }
+}
