@@ -9,7 +9,8 @@ interface actionEditTodoByIndex {
     todoPrev: ITodo;
 }
 const initialState: todosState = {
-    todos: [],
+    todos: [{ name: "today", description: "go to #shop" },
+    { name: "tomorrow", description: "Go to the #pool. buy #food" }],
 }
 
 
@@ -30,7 +31,7 @@ export const todosSlice = createSlice({
             const { todoEdit, todoPrev } = action.payload
             state.todos = state.todos.map(e => {
                 if (e.name === todoPrev.name && e.description === todoPrev.description) {
-                    
+
                     return { ...todoEdit };
                 }
                 return e;
